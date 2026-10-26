@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bukni Sri Ramagopal | Computer Science & Engineering Student</title>
+    <meta
+      name="description"
+      content="Portfolio of Bukni Sri Ramagopal, Computer Science & Engineering student at Brilliant Institute of Engineering and Technology, Hyderabad. CGPA: 8.5."
+    />
+    <meta name="theme-color" content="#2563eb" id="theme-color-meta" />
+    
+    <!-- Open Graph Social Metadata -->
+    <meta property="og:title" content="Bukni Sri Ramagopal | Portfolio" />
+    <meta
+      property="og:description"
+      content="Computer Science & Engineering student with an 8.5 CGPA. Focused on programming fundamentals, analytical reasoning, and practical technology projects."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Google Fonts Preconnect & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Accessibility Skip Link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- 1. Sticky Navbar -->
+    <header class="site-header" id="header">
+      <div class="container header-container">
+        <!-- Brand Wordmark -->
+        <a href="#hero" class="brand" aria-label="Bukni Sri Ramagopal Home">
+          <span class="brand-avatar" aria-hidden="true">SR</span>
+          <span class="brand-name">Bukni Sri Ramagopal</span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="nav-menu" aria-label="Main Navigation">
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#interests-languages" class="nav-link">Interests & Languages</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Header Actions: Theme Toggle & Mobile Menu -->
+        <div class="header-actions">
+          <button
+            id="theme-toggle"
+            class="icon-btn theme-toggle"
+            type="button"
+            aria-label="Switch to dark mode"
+            title="Switch color theme"
+          >
+            <!-- Moon Icon (for Light Mode) -->
+            <svg
+              class="icon-moon"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+            </svg>
+            <!-- Sun Icon (for Dark Mode) -->
+            <svg
+              class="icon-sun"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2"></path>
+              <path d="M12 20v2"></path>
+              <path d="m4.93 4.93 1.41 1.41"></path>
+              <path d="m17.66 17.66 1.41 1.41"></path>
+              <path d="M2 12h2"></path>
+              <path d="M20 12h2"></path>
+              <path d="m6.34 17.66-1.41 1.41"></path>
+              <path d="m19.07 4.93-1.41 1.41"></path>
+            </svg>
+          </button>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button
+            id="menu-toggle"
+            class="icon-btn menu-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+          >
+            <!-- Hamburger Icon -->
+            <svg
+              class="icon-hamburger"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <line x1="4" x2="20" y1="12" y2="12"></line>
+              <line x1="4" x2="20" y1="6" y2="6"></line>
+              <line x1="4" x2="20" y1="18" y2="18"></line>
+            </svg>
+            <!-- Close Icon -->
+            <svg
+              class="icon-close"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M18 6 6 18"></path>
+              <path d="m6 6 12 12"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile Navigation">
+      <ul class="mobile-nav-list">
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#interests-languages" class="mobile-nav-link">Interests & Languages</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main id="main-content">
+      <!-- 2. Hero Section -->
+      <section id="hero" class="hero-section">
+        <div class="container">
+          <div class="hero-layout">
+            <!-- CSS Geometric Monogram Avatar ("SR") -->
+            <div class="hero-avatar-wrapper reveal-on-scroll">
+              <div class="hero-avatar-box">
+                <span class="hero-initials" aria-hidden="true">SR</span>
+                <span class="hero-avatar-subtext">Portfolio</span>
+              </div>
+            </div>
+
+            <!-- Hero Intro Typography -->
+            <div class="hero-content reveal-on-scroll">
+              <div class="hero-badge-row">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Hyderabad, Telangana</span>
+              </div>
+              <h1 class="hero-name">Bukni Sri Ramagopal</h1>
+              <p class="hero-title">Computer Science & Engineering Student</p>
+              <p class="hero-tagline">
+                Applying programming fundamentals, analytical reasoning, and structured problem-solving to practical engineering challenges.
+              </p>
+              <div class="hero-cta-group">
+                <a href="#contact" class="btn btn-primary">
+                  <span>Contact Me</span>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="m12 5 7 7-7 7"></path>
+                  </svg>
+                </a>
+                <a
+                  href="resume.pdf"
+                  download="Bukni_Sri_Ramagopal_Resume.pdf"
+                  class="btn btn-secondary"
+                  aria-label="Download Bukni Sri Ramagopal resume PDF"
+                >
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" x2="12" y1="15" y2="3"></line>
+                  </svg>
+                  <span>Download Resume</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. About Section -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-kicker">Profile</span>
+            <h2 class="section-title">About Me</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-prose reveal-on-scroll">
+              <p>
+                Computer Science and Engineering student with an 8.5 CGPA, seeking opportunities to apply programming fundamentals, analytical reasoning, and problem-solving skills in practical technology projects. Interested in developing a stronger foundation in software development while gaining exposure to real-world engineering practices.
+              </p>
+            </div>
+
+            <!-- Quick-Fact Cards -->
+            <div class="quick-facts-stack reveal-on-scroll">
+              <div class="fact-card">
+                <div class="fact-icon-wrap" aria-hidden="true">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="8" r="6"></circle>
+                    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="fact-label">Academic Merit</div>
+                  <div class="fact-value">CGPA 8.5</div>
+                  <div class="fact-detail">Current Cumulative Grade Point Average</div>
+                </div>
+              </div>
+
+              <div class="fact-card">
+                <div class="fact-icon-wrap" aria-hidden="true">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="fact-label">Degree & Year</div>
+                  <div class="fact-value">B.Tech CSE</div>
+                  <div class="fact-detail">Currently Pursuing 2nd Year</div>
+                </div>
+              </div>
+
+              <div class="fact-card">
+                <div class="fact-icon-wrap" aria-hidden="true">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="fact-label">Location</div>
+                  <div class="fact-value">Hyderabad</div>
+                  <div class="fact-detail">Telangana, India</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Education Section -->
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-kicker">Background</span>
+            <h2 class="section-title">Education</h2>
+            <p class="section-description">
+              Academic progression and foundational coursework in computer science and engineering.
+            </p>
+          </div>
+
+          <!-- Vertical Timeline -->
+          <div class="timeline">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item reveal-on-scroll">
+              <div class="timeline-card">
+                <div class="timeline-top">
+                  <h3 class="timeline-degree">Bachelor of Technology, Computer Science & Engineering</h3>
+                  <span class="timeline-tag">Currently Pursuing 2nd Year</span>
+                </div>
+                <p class="timeline-institution">
+                  Brilliant Institute of Engineering and Technology, Abdullahpurmet, Hyderabad
+                </p>
+                <div class="timeline-score">
+                  <span>Academic Standing:</span>
+                  <strong>CGPA 8.5</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item reveal-on-scroll">
+              <div class="timeline-card">
+                <div class="timeline-top">
+                  <h3 class="timeline-degree">Intermediate (MPC)</h3>
+                  <span class="timeline-tag">Completed</span>
+                </div>
+                <div class="timeline-score">
+                  <span>Score:</span>
+                  <strong>90.4%</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- Timeline Item 3 -->
+            <div class="timeline-item reveal-on-scroll">
+              <div class="timeline-card">
+                <div class="timeline-top">
+                  <h3 class="timeline-degree">Class 10 (CBSE)</h3>
+                  <span class="timeline-tag">Completed</span>
+                </div>
+                <div class="timeline-score">
+                  <span>Score:</span>
+                  <strong>80%</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Skills Section -->
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-kicker">Competencies</span>
+            <h2 class="section-title">Skills & Strengths</h2>
+            <p class="section-description">
+              Core technical capabilities, analytical methods, and problem-solving strengths.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <!-- Group 1: Technical Skills -->
+            <div class="skills-group-card reveal-on-scroll">
+              <div class="skills-group-header">
+                <div class="skills-group-icon" aria-hidden="true">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <h3 class="skills-group-title">Technical Skills</h3>
+              </div>
+
+              <div class="skills-list">
+                <!-- Skill Item 1 -->
+                <div class="skill-item">
+                  <div class="skill-header">
+                    <span class="skill-name">Programming</span>
+                    <span class="skill-desc">C</span>
+                  </div>
+                  <div class="skill-bar-track" aria-hidden="true">
+                    <div class="skill-bar-fill"></div>
+                  </div>
+                </div>
+
+                <!-- Skill Item 2 -->
+                <div class="skill-item">
+                  <div class="skill-header">
+                    <span class="skill-name">Web Technologies</span>
+                    <span class="skill-desc">HTML</span>
+                  </div>
+                  <div class="skill-bar-track" aria-hidden="true">
+                    <div class="skill-bar-fill"></div>
+                  </div>
+                </div>
+
+                <!-- Skill Item 3 -->
+                <div class="skill-item">
+                  <div class="skill-header">
+                    <span class="skill-name">Productivity Tools</span>
+                    <span class="skill-desc">Microsoft Excel</span>
+                  </div>
+                  <div class="skill-bar-track" aria-hidden="true">
+                    <div class="skill-bar-fill"></div>
+                  </div>
+                </div>
+
+                <!-- Skill Item 4 -->
+                <div class="skill-item">
+                  <div class="skill-header">
+                    <span class="skill-name">Problem Solving</span>
+                    <span class="skill-desc">Logical analysis & structured approach</span>
+                  </div>
+                  <div class="skill-bar-track" aria-hidden="true">
+                    <div class="skill-bar-fill"></div>
+                  </div>
+                </div>
+
+                <!-- Skill Item 5 -->
+                <div class="skill-item">
+                  <div class="skill-header">
+                    <span class="skill-name">Analytical Thinking</span>
+                    <span class="skill-desc">Breaking complex tasks into manageable components</span>
+                  </div>
+                  <div class="skill-bar-track" aria-hidden="true">
+                    <div class="skill-bar-fill"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Group 2: Core Strengths -->
+            <div class="skills-group-card reveal-on-scroll">
+              <div class="skills-group-header">
+                <div class="skills-group-icon" aria-hidden="true">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                  </svg>
+                </div>
+                <h3 class="skills-group-title">Core Strengths</h3>
+              </div>
+
+              <div class="strengths-list">
+                <div class="strength-item">
+                  <span class="strength-bullet" aria-hidden="true"></span>
+                  <span class="strength-text">Logical and analytical reasoning</span>
+                </div>
+                <div class="strength-item">
+                  <span class="strength-bullet" aria-hidden="true"></span>
+                  <span class="strength-text">Problem decomposition</span>
+                </div>
+                <div class="strength-item">
+                  <span class="strength-bullet" aria-hidden="true"></span>
+                  <span class="strength-text">Learning new technical concepts</span>
+                </div>
+                <div class="strength-item">
+                  <span class="strength-bullet" aria-hidden="true"></span>
+                  <span class="strength-text">Organizing and interpreting information</span>
+                </div>
+                <div class="strength-item">
+                  <span class="strength-bullet" aria-hidden="true"></span>
+                  <span class="strength-text">Attention to detail</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Projects Section (3 Placeholder Cards) -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-kicker">Portfolio</span>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-description">
+              Upcoming technology and engineering projects currently in preparation.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Card 1 -->
+            <article class="project-card reveal-on-scroll">
+              <div class="project-top">
+                <div class="project-status-row">
+                  <span class="project-index">01</span>
+                  <span class="project-badge">Coming Soon</span>
+                </div>
+                <h3 class="project-title">Software Engineering Project</h3>
+                <p class="project-desc">
+                  Structured C programming project applying algorithmic logic, memory management, and modular system design.
+                </p>
+              </div>
+              <div class="project-footer">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span>In Development</span>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="project-card reveal-on-scroll">
+              <div class="project-top">
+                <div class="project-status-row">
+                  <span class="project-index">02</span>
+                  <span class="project-badge">Coming Soon</span>
+                </div>
+                <h3 class="project-title">Web Development Project</h3>
+                <p class="project-desc">
+                  Responsive web application emphasizing clean semantic markup, accessibility standards, and intuitive interface layouts.
+                </p>
+              </div>
+              <div class="project-footer">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span>In Development</span>
+              </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="project-card reveal-on-scroll">
+              <div class="project-top">
+                <div class="project-status-row">
+                  <span class="project-index">03</span>
+                  <span class="project-badge">Coming Soon</span>
+                </div>
+                <h3 class="project-title">Data & Analytical Tool</h3>
+                <p class="project-desc">
+                  Structured analysis and problem-decomposition tool utilizing spreadsheet modeling and organized computational logic.
+                </p>
+              </div>
+              <div class="project-footer">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span>In Development</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. Interests & Languages Section -->
+      <section id="interests-languages" class="section">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-kicker">Activities & Communication</span>
+            <h2 class="section-title">Interests & Languages</h2>
+            <p class="section-description">
+              Personal pursuits and multilingual communication capabilities.
+            </p>
+          </div>
+
+          <div class="chips-container-grid">
+            <!-- Sub-section: Interests -->
+            <div class="chips-group reveal-on-scroll">
+              <h3 class="chips-group-title">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  class="chip-icon"
+                >
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                <span>Interests</span>
+              </h3>
+              <div class="chips-list">
+                <div class="chip">
+                  <span class="chip-icon" aria-hidden="true">
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+                      <path d="M7 3v18"></path>
+                      <path d="M3 7.5h4"></path>
+                      <path d="M3 12h18"></path>
+                      <path d="M3 16.5h4"></path>
+                      <path d="M17 3v18"></path>
+                      <path d="M17 7.5h4"></path>
+                      <path d="M17 16.5h4"></path>
+                    </svg>
+                  </span>
+                  <span>Watching movies</span>
+                </div>
+                <div class="chip">
+                  <span class="chip-icon" aria-hidden="true">
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                      <path d="M2 12h20"></path>
+                    </svg>
+                  </span>
+                  <span>Playing cricket</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sub-section: Languages -->
+            <div class="chips-group reveal-on-scroll">
+              <h3 class="chips-group-title">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  class="chip-icon"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  <path d="M2 12h20"></path>
+                </svg>
+                <span>Languages</span>
+              </h3>
+              <div class="chips-list">
+                <div class="chip">
+                  <span class="chip-icon" aria-hidden="true">
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m5 8 6 6"></path>
+                      <path d="m4 14 6-6 2-3"></path>
+                      <path d="M2 5h12"></path>
+                      <path d="M7 2h1"></path>
+                      <path d="m22 22-5-10-5 10"></path>
+                      <path d="M14 18h6"></path>
+                    </svg>
+                  </span>
+                  <span>English</span>
+                </div>
+                <div class="chip">
+                  <span class="chip-icon" aria-hidden="true">
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m5 8 6 6"></path>
+                      <path d="m4 14 6-6 2-3"></path>
+                      <path d="M2 5h12"></path>
+                      <path d="M7 2h1"></path>
+                      <path d="m22 22-5-10-5 10"></path>
+                      <path d="M14 18h6"></path>
+                    </svg>
+                  </span>
+                  <span>Hindi</span>
+                </div>
+                <div class="chip">
+                  <span class="chip-icon" aria-hidden="true">
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m5 8 6 6"></path>
+                      <path d="m4 14 6-6 2-3"></path>
+                      <path d="M2 5h12"></path>
+                      <path d="M7 2h1"></path>
+                      <path d="m22 22-5-10-5 10"></path>
+                      <path d="M14 18h6"></path>
+                    </svg>
+                  </span>
+                  <span>Telugu</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. Contact Section -->
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-header reveal-on-scroll">
+            <span class="section-kicker">Communication</span>
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-description">
+              Feel free to reach out directly via email, phone, or send a quick message through the form below.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Direct Contact Info Card -->
+            <div class="contact-info-card reveal-on-scroll">
+              <h3 class="contact-info-title">Contact Information</h3>
+              <ul class="contact-links-list">
+                <li class="contact-link-item">
+                  <div class="contact-link-icon" aria-hidden="true">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-link-label">Email</div>
+                    <a
+                      href="mailto:srirambukni@gmail.com"
+                      class="contact-link-value"
+                      aria-label="Send email to srirambukni@gmail.com"
+                    >
+                      srirambukni@gmail.com
+                    </a>
+                  </div>
+                </li>
+
+                <li class="contact-link-item">
+                  <div class="contact-link-icon" aria-hidden="true">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-link-label">Phone</div>
+                    <a
+                      href="tel:7981190252"
+                      class="contact-link-value"
+                      aria-label="Call phone number 7981190252"
+                    >
+                      7981190252
+                    </a>
+                  </div>
+                </li>
+
+                <li class="contact-link-item">
+                  <div class="contact-link-icon" aria-hidden="true">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-link-label">Location</div>
+                    <span class="contact-link-value">Hyderabad, Telangana</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Mailto Contact Form (No Backend) -->
+            <div class="contact-form-card reveal-on-scroll">
+              <h3 class="form-title">Send a Message</h3>
+              <p class="form-subtitle">Fills an email message directly in your default mail application.</p>
+
+              <form id="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-input"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-input"
+                    placeholder="name@example.com"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    class="form-input"
+                    placeholder="e.g. Technology Project Discussion"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-textarea"
+                    placeholder="Write your message here..."
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  <span>Send Message via Email</span>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <line x1="22" x2="11" y1="2" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+
+                <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 9. Footer -->
+    <footer class="site-footer">
+      <div class="container footer-container">
+        <div>
+          <div class="footer-brand">Bukni Sri Ramagopal</div>
+          <div class="footer-title">Computer Science & Engineering Student</div>
+        </div>
+
+        <div class="footer-copy">
+          &copy; <span id="current-year">2026</span> Bukni Sri Ramagopal. All rights reserved.
+        </div>
+
+        <a href="#hero" class="back-to-top" aria-label="Back to top of page">
+          <span>Top</span>
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="m18 15-6-6-6 6"></path>
+          </svg>
+        </a>
+      </div>
+    </footer>
+
+    <!-- Vanilla JavaScript (type=module for Vite bundle resolution) -->
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
